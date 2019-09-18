@@ -1814,6 +1814,11 @@ body {
 .cid-rABpnMsEXy .mbr-section-subtitle {
   color: #ffffff;
 }
+.cid-rBMu2R9HXk {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #073b4c;
+}
 .cid-rABpo8LVR4 {
   padding-top: 90px;
   padding-bottom: 90px;
@@ -2521,7 +2526,7 @@ body {
   color: #c1c1c1 !important;
 }
 .cid-rAEmMHT1E4 {
-  padding-top: 60px;
+  padding-top: 120px;
   padding-bottom: 90px;
   background-image: url("../../../assets/images/dfdf-1-1152x1152.jpg");
 }
