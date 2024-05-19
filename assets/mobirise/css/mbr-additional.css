@@ -1172,16 +1172,6 @@ section.lazy-placeholder:after {
   margin-top: 1rem;
   margin-bottom: 0;
 }
-.cid-rABs79v0gE {
-  padding-top: 60px;
-  padding-bottom: 60px;
-  background-image: url("../../../assets/images/001-portfolio-cover-2000x2829.jpg");
-}
-.cid-rADgxi7rh1 {
-  padding-top: 60px;
-  padding-bottom: 60px;
-  background-image: url("../../../assets/images/002break01-2000x2829.jpg");
-}
 .cid-rADjvbRArg {
   padding-top: 60px;
   padding-bottom: 60px;
@@ -1315,6 +1305,11 @@ section.lazy-placeholder:after {
   opacity: 0.7;
   -webkit-transition: 0.2s background ease-in-out;
   transition: 0.2s background ease-in-out;
+}
+.cid-rABs79v0gE {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-image: url("../../../assets/images/001-portfolio-cover-2000x2829.jpg");
 }
 .cid-rABw8IbqDA {
   padding-top: 15px;
