@@ -290,6 +290,7 @@
       <li><a href="#about">About</a></li>
       <li><a href="#skills">Skills</a></li>
       <li><a href="#experience">Experience</a></li>
+      <li><a href="#projects">Projects</a></li>
       <li><a href="#education">Education</a></li>
       <li><a href="#community">Community</a></li>
       <li><a href="#contact">Contact</a></li>
@@ -561,8 +562,47 @@
   </div>
 </section>
 
+<!-- PERSONAL PROJECT -->
+<section id="projects">
+  <div class="container">
+    <div class="section-head reveal">
+      <div class="eyebrow">// Personal project</div>
+      <h2>Ceylon Gem Gallery</h2>
+      <p class="lead">
+        An online gallery and marketplace for natural Sri Lankan gemstones that I designed, built and run
+        on my own, end to end. Buyers browse and search gems, then talk to sellers through
+        inquiries, chat or WhatsApp. Sellers get their own stores through a partner portal.
+      </p>
+    </div>
+
+    <div class="card reveal" style="padding:30px">
+      <div class="grid grid-2" style="gap:10px 34px">
+        <ul style="margin-left:18px;color:var(--muted);font-size:.95rem">
+          <li><strong style="color:var(--text)">Search &amp; discovery:</strong> free-text search plus filters for gem type, colour, shape, origin, treatment, carat and price, with SEO pages, sitemap and canonical tags.</li>
+          <li><strong style="color:var(--text)">Partner portal:</strong> buyer and seller sign-up with approval, seller stores, admin / moderator / seller roles and direct buyer–seller chat.</li>
+          <li><strong style="color:var(--text)">Rich media:</strong> image optimisation with sharp, in-browser video trimming with a frame strip, and branded share images with QR codes.</li>
+        </ul>
+        <ul style="margin-left:18px;color:var(--muted);font-size:.95rem">
+          <li><strong style="color:var(--text)">Multilingual content:</strong> gem articles in English, Sinhala, Tamil and Chinese, written in a Tiptap editor and imported through an AI-assisted pipeline.</li>
+          <li><strong style="color:var(--text)">Notifications &amp; analytics:</strong> Web Push, email through Brevo SMTP, and gem view and QR scan tracking.</li>
+          <li><strong style="color:var(--text)">Security:</strong> Supabase Auth, PostgreSQL row level security and Zod-validated server actions.</li>
+        </ul>
+      </div>
+      <div class="chips" style="margin-top:18px">
+        <span class="chip hl">Next.js 15</span><span class="chip hl">React 19</span><span class="chip hl">TypeScript</span><span class="chip">Server Actions</span><span class="chip">Tailwind CSS 4</span><span class="chip">Supabase</span><span class="chip">PostgreSQL</span><span class="chip">Prisma</span><span class="chip">Zod</span><span class="chip">Tiptap</span><span class="chip">Web Push</span><span class="chip">Vercel</span>
+      </div>
+      <div class="cta" style="margin-top:22px">
+        <a class="btn primary" href="https://ceylon-gem-gallery.vercel.app" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 3h7v7M10 14L21 3M21 14v7H3V3h7"/></svg>
+          Visit the live site
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
 <!-- EDUCATION -->
-<section id="education" class="edu">
+<section id="education" class="alt edu">
   <div class="container">
     <div class="section-head reveal">
       <div class="eyebrow">// Education &amp; certifications</div>
@@ -589,7 +629,7 @@
 </section>
 
 <!-- COMMUNITY (lower priority) -->
-<section class="alt" id="community">
+<section id="community">
   <div class="container">
     <div class="section-head reveal">
       <div class="eyebrow">// Beyond work</div>
